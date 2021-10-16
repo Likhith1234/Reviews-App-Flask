@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block body %} 
+    <div class="container">
+        <h1>Update Review</h1>
+        <form action="/update/{{ task.id }}" method="post">
+            <input type="text" name="content" id="content" value="{{ task.content }}">
+            <input type="submit" value="Update Task">
+        </form>
+    </div>
+{% endblock %}
