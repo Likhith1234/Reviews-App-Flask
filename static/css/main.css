@@ -75,7 +75,7 @@ input {
     margin: 1em 0;
 }
 
-input:nth-child(3) {
+.submit-btn {
     min-width: 5em; 
     width: 20%;
     background-color: rgb(82, 82, 245);
@@ -85,7 +85,7 @@ input:nth-child(3) {
     border-radius: .5em;
 }
 
-input:nth-child(3):hover {
+.submit-btn:hover {
     cursor: pointer;
     background-color: rgb(15, 158, 247);
     font-weight: 600;
